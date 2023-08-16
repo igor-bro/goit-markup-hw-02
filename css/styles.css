@@ -1,7 +1,7 @@
 body {
     color: #434455;
     background-color: #FFFFFF;
-    font-family: "Raleway", "Roboto",  sans-serif;
+    font-family: "Raleway", "Roboto", sans-serif;
     font-weight: 400;
     font-size: 16px;
     font-style: normal;
@@ -9,7 +9,7 @@ body {
     letter-spacing: 2%;
     }
 
-h2 {
+.headertwo {
     color: #2e2f42;
     font-size: 36px;
     line-height: 1.11;
@@ -18,7 +18,7 @@ h2 {
     text-transform: capitalize;
 }
 
-h3 {
+.headerthree {
     color: #2e2f42;
     font-weight: 500;
     font-size: 20px;
@@ -35,7 +35,7 @@ h3 {
 
 .logo {
     color: #4d5ae5;
-    font-family: "Releway", sans-serif;
+    font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
@@ -55,7 +55,7 @@ h3 {
     letter-spacing: 0.02em;#434455
 }
 
-.navlink:hover .navlink:focus {
+.navlink:hover, .navlink:focus {
     color: #404bbf;
 }
 
@@ -67,7 +67,7 @@ h3 {
     letter-spacing: 0.02em;
 }
 
-.addres:hover .addres:focus {
+.addres:hover, .addres:focus {
     color: #404bbf;
 }
 
@@ -94,7 +94,7 @@ h3 {
     cursor: pointer;
 }
 
-.herobutton:hover .herobutton:focus {
+.herobutton:hover, .herobutton:focus {
     background-color: #404bbf;
 }
 
