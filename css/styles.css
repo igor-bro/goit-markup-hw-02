@@ -2,11 +2,18 @@ body {
     color: #434455;
     background-color: #FFFFFF;
     font-family: "Roboto", sans-serif;
-    font-weight: 400;
     font-size: 16px;
     font-style: normal;
     line-height: 1.5;
     letter-spacing: 2%;
+    }
+
+ul {
+    list-style: none;
+    }
+    
+a {
+    text-decoration: none;
     }
 
 .headertwo {
